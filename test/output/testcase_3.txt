@@ -1,0 +1,29 @@
+========================================================
+Job Name: matlab_testcase_3
+Job ID: 5126
+Job Node: d0038
+Start Time: Tue Jan 14 02:38:41 PM EST 2025
+========================================================
+Step 1: Creating parallel test script
+Step 2: Running parallel test
+Loading matlab/R2024b
+  Loading requirement: OpenJDK/22.0.2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 1 (24.2.0.2740171) 64-bit (glnxa64)
+                             September 20, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 56 workers.
+Parallel computation time: 0.840077 seconds
+Parallel pool using the 'Processes' profile is shutting down.
+Step 2 Completed: Parallel computing test successful.
+========================================================
+Exiting Compute Node: d0038
+End Time: Tue Jan 14 02:49:19 PM EST 2025
+========================================================
