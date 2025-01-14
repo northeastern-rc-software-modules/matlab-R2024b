@@ -1,0 +1,26 @@
+========================================================
+Job Name: matlab_testcase_2
+Job ID: 5125
+Job Node: d0024
+Start Time: Tue Jan 14 02:38:41 PM EST 2025
+========================================================
+Step 1: Creating test MATLAB script
+Step 2: Running computation test
+Loading matlab/R2024b
+  Loading requirement: OpenJDK/22.0.2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 1 (24.2.0.2740171) 64-bit (glnxa64)
+                             September 20, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Matrix multiplication time: 0.472942 seconds
+Step 2 Completed: Basic computation test successful.
+========================================================
+Exiting Compute Node: d0024
+End Time: Tue Jan 14 02:46:05 PM EST 2025
+========================================================
