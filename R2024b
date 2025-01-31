@@ -1,0 +1,24 @@
+#%Module
+module-whatis	 "Loads matlab/R2024b module.
+
+This module was built on Fri Nov  1 02:01:33 PM EDT 2024
+
+MATLAB (https://www.mathworks.com/) is a numerical computing suite.
+
+The script used to build this module can be found here: https://github.com/northeastern-rc-software-modules/matlab-R2024b
+
+To load the module, type:
+module load matlab/R2024b
+
+"
+
+conflict	 matlab
+prepend-path	 PATH /shared/EL9/explorer/matlab/R2024b/bin
+prepend-path       PATH /shared/EL9/explorer/matlab/R2024b/bin/glnxa64
+prepend-path       LD_LIBRARY_PATH /shared/EL9/explorer/matlab/R2024b/runtime/glnxa64
+prepend-path       LD_LIBRARY_PATH /shared/EL9/explorer/matlab/R2024b/bin/glnxa64
+module             add OpenJDK/22.0.2
+prepend-path       MLM_LICENSE_FILE /shared/EL9/explorer/matlab/nunet.lic
+append-path        PATH /shared/EL9/explorer/matlab/support_packages/matlab_parallel_server/bin
+prepend-path       MATLABPATH /shared/EL9/explorer/matlab/support_packages/matlab_parallel_server/scripts
+prepend-path       MATLAB_CLUSTER_PROFILES_LOCATION /shared/EL9/explorer/matlab/support_packages/matlab_parallel_server/scripts
